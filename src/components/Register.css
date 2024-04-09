@@ -144,3 +144,31 @@
     .sasss {
         font-weight: 600;
     } 
+
+    /* Media query for mobile screens */
+@media only screen and (max-width: 520px) {
+    .video-mobile {
+      display: block;
+    }
+    .video-tab {
+        display: none;
+    }
+  }
+  
+  /* Media query for tablets and laptops */
+  @media only screen and (min-width: 521px) {
+    .video-tab {
+      display: block;
+    }
+    .video-mobile {
+        display: none;
+    }
+  }
+    
+    @media screen and (min-width: 520px) and (max-width: 1040px) {
+          
+    }
+
+    @media screen and (min-width: 520px) and (max-width: 1040px) {
+          
+    }

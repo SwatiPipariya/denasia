@@ -4,6 +4,7 @@ import "./Register.css";
 import KanhaJiVideo from "./assest/KanhaJi.mp4"; // Replace with the actual video file path
 import Thankyou from "./assest/aqwe.gif"
 import Header from "./assest/header.png"
+import TabVDO from "./assest/Tab/TabOpen.mp4"
 
 const Register = () => {
   // const [opdCount, setOpdCount] = useState(1);
@@ -95,8 +96,21 @@ const Register = () => {
             autoPlay 
             muted
             onEnded={handleVideoEnd} 
+            className="video-mobile" 
+
+          />
+          <video 
+            src={TabVDO} 
+            id="gif" 
+            width="100%" 
+            alt='KanhaJi_vedio'
+            className="video-tab" 
+            autoPlay 
+            muted
+            onEnded={handleVideoEnd} 
           />
         </div>
+        
       )}
       {/* Conditionally render the form based on the state */}
       {showForm && (
