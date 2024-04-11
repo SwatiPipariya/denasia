@@ -12,11 +12,15 @@ const SignIn = () => {
         <div className='jshdsd'>
           <img src={Den} alt='Denasia' width={"60%"} className='denaSF' />
         </div>
+        <div className='xsxshd'>
+          <img src={JaiS} alt='Jai' width={"40%"} className='JaiSh' />
+        </div>
         <div className='dsdfa'>
           <img src={SmallK} alt='Krishna' className='wefdc' />
         </div>
       </div>
       <div className="uhde">
+
 
 
         <div className='iwjs'>
@@ -51,6 +55,9 @@ const SignIn = () => {
         </div>
         <div className='qegpx'>
           <img src={More} alt='pankh' width={"15%"} className='mopan' />
+        </div>
+        <div className='dsdfaaa'>
+          <img src={SmallK} alt='Krishna' className='wefdssxc' />
         </div>
       </div>
       {/* </div> */}
